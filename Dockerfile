@@ -7,4 +7,4 @@ RUN wget https://github.com/fatedier/frp/releases/download/v0.39.1/frp_0.39.1_li
     && cp /app/frp_0.39.1_linux_amd64/frps* /app/frp \
     && rm -rf /app/frp_0.39.1_linux_amd64
 
-ENTRYPOINT ["./frp/frps", "-c", "./frps.ini"]
+ENTRYPOINT ["./frps", "-c", "./frps.ini"]
